@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Courier Management System</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <script defer src="courier.js"></script>
+
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body style="font-family: 'Hind', sans-serif;">
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark"
+         style="background-image: url('../assets/image/courier.jpg'); height:160px; width: 100vw;  background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;">
+            <div class="container-fluid"><a class="navbar-brand text-capitalize text-warning" href="login.html"></a><button class="navbar-toggler border rounded-0" data-toggle="collapse"
+                    data-target="#navcol-1"><i class="fa fa-navicon shadow-none"></i><span class="sr-only">Toggle
+                        navigation</span></button>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container-fluid ">
+
+        <h4 class="text-center p-2 bg-light text-danger" style="margin-top:165px;">Log In</h4>
+        <form action="Shipment.html">
+            <div id="loginbox">
+
+                <div class="form-row">
+                    <div><span class="text-center">Email Id:&nbsp;</span></div>
+                    <div class="col-12 p-1"><input class="form-control" type="email" name="EmailId"
+                            placeholder="Email Id" required></div><br><br>
+                    <div><span class="text-center">Password:&nbsp;</span></div>
+                    <div class="col-12 p-1"><input class="form-control" type="password" name="Password"
+                            placeholder="Password" required title=" Password must contain at least 6 characters,
+                            including UPPER or lowercase and numbers." pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+                    </div>
+
+
+                </div>
+                <div class="form-row p-2">
+                    <div class="text-center m-auto">
+                        <button class="btn btn-success " type="submit" name="Submit" value="Submit">Log In</button>
+                        <hr>
+                        <span>Not a member?</span>
+                        <a href="Registration.html" class="btn btn-primary btn-sm " type="button">Register</a>
+                    </div>
+
+
+                </div>
+
+        </form>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

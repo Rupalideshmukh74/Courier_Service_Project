@@ -1,0 +1,10 @@
+#loginbox{
+
+    position: absolute;
+    transform: translate(-50,-50);
+    top: 40%;
+    left: 35%;
+    width: 35%;
+    height: 25%;
+
+}
